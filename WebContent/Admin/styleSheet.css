@@ -1,0 +1,418 @@
+@CHARSET "EUC-KR";
+
+<
+style type ="text/css">body {
+	margin: 0px;
+}
+
+#warp {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+}
+
+#header {
+	height: 244px;
+}
+
+#header_menu {
+	width: 1200px;
+	margin: auto;
+	height: 122px;
+}
+
+#header_submenu {
+	background-color: #f9f9f9;
+	height: 122px;
+}
+
+#menu_list {
+	width: 1200px;
+	margin: auto;
+}
+
+#menu_list>#menu_list_sub {
+	width: 1200px;
+	margin: auto;
+	height: 122px;
+	text-align: center;
+	margin-right: 100px;
+	margin-left: 50px;
+}
+
+div#content {
+	width: 1200px;
+	height: auto;
+	margin: auto;
+	margin-bottom: 50px;
+}
+
+div#footer {
+	background-color: #f9f9f9;
+	height: 146px;
+}
+
+#logolist>.logo {
+	height: 80px;
+	margin-top: 10px;
+}
+
+#logolist>.logo>img {
+	margin-top: 20px;
+	height: 80px;
+}
+
+#logolist>#log {
+	height: 80px;
+	float: right;
+	margin-right: 100px;
+	margin-top: 10px;
+}
+
+#logolist>font {
+	float: right;
+	margin-right: 100px;
+}
+
+#logolist {
+	height: 122px;
+}
+
+#Ad {
+	width: 10px;
+	height: 100px;
+	background: url('img/log_img.jpg');
+	background-size: 66.66px, 100px;
+	display: block;
+	line-height: 80px;
+	padding-left: 66.66px;
+	background-repeat: no-repeat;
+	float: right;
+	margin-left: 50px;
+	margin-right: 100px;
+	margin-top: 20px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#header_submenu>#menu_list>#menu_list_sub>a {
+	font-size: 18px;
+	text-decoration: none;
+	line-height: 120px;
+	padding-left: 7%;
+	padding-right: 7%;
+	padding-top: 51px;
+	padding-bottom: 36px;
+}
+
+#sub_cotent {
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 50px;
+}
+
+#header_submenu>#menu_list>#menu_list_sub>a:link {
+	color: red;
+	text-decoration: none;
+}
+
+#header_submenu>#menu_list>#menu_list_sub>a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+#header_submenu>#menu_list>#menu_list_sub>a:hover {
+	color: #f22222;
+	text-decoration: none;
+	border-bottom: 1px solid;
+	border-bottom-color: #b22222;
+	border-bottom-width: 15px;
+}
+
+#table_div>#table_attribute {
+	width: 1000px;
+	height: 51px;
+	margin: auto;
+	text-align: center;
+	margin-top: 7px;
+	margin-bottom: 0px;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+	border-left: none;
+	border-right: none;
+}
+
+.table_info {
+	width: 1000px;
+	height: 51px;
+	margin: auto;
+	text-align: center;
+	margin-bottom: 0px;
+	border-bottom: 1px solid black;
+	border-left: none;
+	border-right: none;
+}
+
+.num_info {
+	width: 176px;
+	height: 44px;
+}
+
+.name_info {
+	width: 180px;
+	height: 44px;
+}
+
+.email_info {
+	width: 260px;
+	height: 44px;
+}
+
+.post_info {
+	width: 152px;
+	height: 44px;
+}
+
+.fire_info {
+	width: 222px;
+	height: 44px;
+}
+
+#table_div {
+	margin-left: 100px;
+	margin-right: 0px;
+}
+
+.post {
+	width: 150px;
+}
+
+.fire {
+	width: 220px;
+}
+
+.btn {
+	background-color: #f9f9f9;
+	width: 56px;
+	height: 31px;
+	font-size: 15px;
+	text-align: center;
+	border-radius: 5px;
+	border-color: #f9f9f9;
+	outline: none;
+	position: relative;
+}
+
+.Mnum_info {
+	width: 132px;
+	height: 44px;
+}
+
+.Mname_info {
+	width: 190px;
+	height: 44px;
+}
+
+.Mname2_info {
+	width: 287px;
+	height: 44px;
+}
+
+.Fax_info {
+	width: 150px;
+	height: 44px;
+}
+
+.Mfire_info {
+	width: 222px;
+	height: 44px;
+}
+
+.Mpost {
+	width: 150px;
+}
+
+.Mfire {
+	width: 222px;
+}
+
+.Pnum {
+	width: 132px;
+	height: 44px;
+}
+
+.Pnum_info {
+	height: 44px;
+	width: 132px;
+}
+
+.title {
+	height: 44px;
+	width: 290px;
+}
+
+.title_info {
+	height: 44px;
+	width: 285px;
+}
+
+.writer {
+	height: 44px;
+	width: 126px;
+}
+
+.writer_info {
+	height: 44px;
+	width: 126px;
+}
+
+.list {
+	height: 44px;
+	width: 110px;
+}
+
+.list_info {
+	height: 44px;
+	width: 100px;
+}
+
+.Wday {
+	height: 44px;
+	width: 190px;
+}
+
+.Wday_info {
+	height: 44px;
+	width: 190px;
+}
+
+.pfire {
+	height: 44px;
+	width: 125px;
+}
+
+#btn2 {
+	background-color: white;
+	font-size: 15px;
+	text-align: center;
+	border-radius: 5px;
+	outline: 0;
+	position: relative;
+	border: 0;
+}
+
+.Qlock, .lock {
+	width: 74px;
+	height: 44px;
+}
+
+.lock>img {
+	width: 32px;
+	height: 32px;;
+}
+
+.Qnum, .Qnum_info {
+	width: 132px;
+	height: 44px;
+}
+
+.Qtitle, .Qtitle_info {
+	width: 300px;
+	height: 44px;
+}
+
+.Qwriter, .Qwriter_info {
+	width: 125px;
+	height: 44px;
+}
+
+.Qday, .Qday_info {
+	width: 127px;
+	height: 44px;
+}
+
+.Qrespopne, .Qrespopne_info {
+	width: 214px;
+	height: 44px;
+}
+
+.Qfire, .Qfire_info {
+	width: 100px;
+	height: 44px;
+}
+
+.slide {
+	background-color: #f9f9f9;
+	margin-left: 50px;
+	margin-right: 100px;
+	margin-bottom: 10px;
+	width: 1000px;
+}
+
+.slidetitle {
+	padding-top: 20px;
+	font-size: 18px;
+	margin-top: 10px;
+}
+
+.title_text {
+	margin-left: 40px;
+	vertical-align: top;
+}
+
+#img {
+	background-color: white;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	width: 900px;;
+	height: auto;
+}
+
+#button {
+	padding-bottom: 20px;
+	margin-right: 50px;
+	text-align: right;
+}
+
+#img>img {
+	margin: auto;
+	display: block;
+}
+.title_table{
+	width: 800px;
+}
+.slidetitle2 {
+	font-size: 18px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	margin-left: 50px;
+}
+
+.title_load {
+	margin-left: 50px;
+	font-weight: bold;
+}
+
+.label_title {
+	background-color: white;
+	
+}
+
+.label_sub_title {
+	border: 5px solid white; 
+	background-color : white;
+	margin: 0 auto;
+	background-color: white;
+	font-weight: bold;
+}
+
+.label {
+	background-color: white;
+	border: 6px solid white;
+	
+}
+</
+style
+>
